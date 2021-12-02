@@ -22,7 +22,7 @@ pipeline {
 
     stage('rmdir') {
       steps {
-        sh 'rm -rf /test'
+        sh 'sudo rm -rf /test'
       }
     }
 
