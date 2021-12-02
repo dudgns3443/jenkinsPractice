@@ -1,2 +1,2 @@
 #!/bin/bash
-echo hi > /var/www/html/index.html
+amazon-linux-extras install -y nginx1
