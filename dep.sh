@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo yum remove -y httpd
+echo hi > /var/www/html/index.html
